@@ -2,4 +2,5 @@ Scripts for preprocessing raw sequencing reads (igh_preprocess), finding clonal 
 
 Examples of analysis scripts in the form of iPython notebooks for generating the main figures are provided (analysis).
 
-Written by Felix Horns and Derek Croote, 2016.
+Copyright Felix Horns 2016.
+Available under the MIT License.
