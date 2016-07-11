@@ -1,0 +1,19 @@
+{
+ "workdir":							"/local10G/rfhorns/Bcell_class_switching",
+ "seedfile":                                                    "/local10G/rfhorns/Bcell_class_switching/pipelines/igh_cluster/seedfile_igh_cluster.txt",
+ "num_workers":                                                 192,
+ "scratch_storage":						"LOCAL_SATA",
+ "clustering_V_allele_collapse_dict_file":			"/local10G/rfhorns/Bcell_class_switching/resources/Vsegments_20150201_IGHV70_primer_amplicons_identicals_collapsed.txt",
+ "params_partition_make_lib_clustering_info":			"general",
+ "params_partition_find_groups":				"general",
+ "params_partition_balance_load":				"general",
+ "params_partition_do_clustering":				"general",
+ "params_partition_cat_clusters":				"general",
+ "params_partition_parse_clusters":				"general",
+ "params_mem_make_lib_clustering_info":				"5300",
+ "params_mem_find_groups":					"16000",
+ "params_mem_balance_load":					"5300",
+ "params_mem_do_clustering":					"5300",
+ "params_mem_cat_clusters":					"5300",
+ "params_mem_parse_clusters":					"5300"
+}

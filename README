@@ -1,0 +1,5 @@
+Scripts for preprocessing raw sequencing reads (igh_preprocess), finding clonal lineages (igh_cluster), creating a MySQL database of sequences and lineages (igh_makedb), and reconstructing histories of clonal lineages (igh_tree).  These are intended to be run using Snakemake (https://bitbucket.org/snakemake/snakemake/wiki/Home) via Snakefile.py.
+
+Examples of analysis scripts in the form of iPython notebooks for generating the main figures are provided (analysis).
+
+Written by Felix Horns, 2016.

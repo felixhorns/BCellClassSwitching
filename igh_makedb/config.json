@@ -1,0 +1,23 @@
+{
+ "workdir":							"/local10G/rfhorns/Bcell_class_switching_V1_v3",
+ "seedfile":                                                    "/local10G/rfhorns/Bcell_class_switching_V1_v3/pipelines/igh_makedb/seedfile_igh_makedb.txt",
+ "num_workers":                                                 192,
+ "scratch_storage":						"LOCAL_SSD",
+ "db":								"dbname",
+ "mysql_db_host":						"url",
+ "mysql_db_user":						"username",
+ "mysql_db_password":						"password",
+ "collapse_identical_sequences_script":				"/datastore/rfhorns/scripts/igh_makedb/collapse_identical_VDJC_seqs.py",
+ "sequences_lineages_field_dict":				"/local10G/rfhorns/Bcell_class_switching_V1_v3/resources/sequences_lineages_field_dict.json",
+ "patient_name_to_uid_map":					"/local10G/rfhorns/Bcell_class_switching_V1_v3/resources/patient_name_to_uid_map.json",
+ "patient_data":						"/local10G/rfhorns/Bcell_class_switching_V1_v3/resources/patient_data.csv",
+ "year_visit_str_to_uid_map":					"/local10G/rfhorns/Bcell_class_switching_V1_v3/resources/year_visit_str_to_uid_map.json",
+ "subsampling_p_to_uid_map":					"/local10G/rfhorns/Bcell_class_switching_V1_v3/pipelines/igh_subsample/subsampling_probabilities.txt",
+ "clustering_params_to_uid_map":				"/local10G/rfhorns/Bcell_class_switching_V1_v3/pipelines/igh_cluster/all_cluster_params.txt",
+ "params_partition_collapse_identical_sequences":		"general",
+ "params_partition_clean_uids":					"general",
+ "params_partition_init_db":					"general",
+ "params_mem_collapse_identical_sequences":			"5300",
+ "params_mem_clean_uids":					"5300",
+ "params_mem_init_db":						"5300"
+}

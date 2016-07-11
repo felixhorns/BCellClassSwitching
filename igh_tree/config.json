@@ -1,0 +1,39 @@
+{
+ "workdir":							"/local10G/rfhorns/Bcell_class_switching_V1_v3",
+ "seedfile":                                                    "/local10G/rfhorns/Bcell_class_switching_V1_v3/pipelines/igh_tree/seedfile.txt",
+ "num_workers":                                                 192,
+ "scratch_storage":						"LOCAL_SSD",
+ "db":								"Bcell_flu_twins_V1_v3",
+ "mysql_db_host":						"url.to.db.host",
+ "mysql_db_user":						"myUsername",
+ "mysql_db_password":						"myPassword",
+ "path_to_V_germline_ref_file":					"/local10G/rfhorns/Bcell_class_switching_V1_v3/resources/Vsegments_20150201.fasta.cleaned",
+ "path_to_J_germline_ref_file":					"/local10G/rfhorns/Bcell_class_switching_V1_v3/resources/Jsegments_20150201.fasta.cleaned",
+ "path_to_muscle_bin":						"/b1_2/home/rfhorns/resources/muscle3.8.31/muscle",
+ "path_to_clustalo_bin":					"/b1_2/home/rfhorns/resources/clustal-omega-1.2.1/bin/clustalo",
+ "path_to_edmonds_bin":						"/b1_2/home/rfhorns/resources/edmonds/edmonds",
+ "alignment_filter_stringency":					0,
+
+ "params_partition_auto_merge_header_safe":			"general",
+ "params_mem_auto_merge_header_safe":				"5300",
+
+ "params_partition_mst_query":					"general",
+ "params_mem_mst_query":					"5300",
+ "params_partition_mst_worker":					"general",
+ "params_mem_mst_worker":					"10000",
+ "params_partition_mst":					"general",
+ "params_mem_mst":						"5300",
+
+ "params_partition_msa_query":					"general",
+ "params_mem_msa_query":					"5300",
+ "params_partition_msa_worker":					"general",
+ "params_mem_msa_worker":					"10000",
+    
+ "params_partition_gapless_align_worker":			"general",
+ "params_mem_gapless_align_worker":		         	"5300",
+ "params_partition_get_germline_seq_worker":			"general",
+ "params_mem_get_germline_seq_worker":		         	"5300",
+ "params_partition_muscle_profile_align_germline_worker":	"general",
+ "params_mem_muscle_profile_align_germline_worker":	       	"10000"
+
+}

@@ -1,0 +1,1 @@
+V1, V2, V3	/path/to/file1/, /path/to/file2/, /path/to/file3/	/path/to/output/directory/	hybrid	0.95	0	0.95	10

@@ -1,0 +1,3 @@
+Scripts to create MySQL databases of sequences and lineages for lineage reconstruction analysis.  These are associated with Horns et al. 2016 Elife.  The workflow is: (1) create the MySQL database (using create_db.sql), (2) populate the database with information from sequences_lineages files (output of igh_cluster).  Input consists of a seedfile which specifies the paths to the sequences_lineages files to be added to the database.  An example is provided (seedfile.txt).  Note that in order to run these scripts, one must create a configuration file.  An example is provided (config.json).  This script is configured to run in a distributed computing cluster using Slurm.  An example of a submission script is provided (run_igh_makedb.sh).
+
+Written by Felix Horns, 2016.
